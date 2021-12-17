@@ -439,35 +439,6 @@
   groups        = {Latent},
 }
 
-@Article{Yedida2021,
-  author        = {Yedida, Rahul and Saha, Snehanshu and Prashanth, Tejas},
-  journal       = {Applied Intelligence},
-  title         = {{LipschitzLR: Using theoretically computed adaptive learning rates for fast convergence}},
-  year          = {2021},
-  issn          = {15737497},
-  number        = {3},
-  pages         = {1460--1478},
-  volume        = {51},
-  abstract      = {We present a novel theoretical framework for computing large, adaptive learning rates. Our framework makes minimal assumptions on the activations used and exploits the functional properties of the loss function. Specifically, we show that the inverse of the Lipschitz constant of the loss function is an ideal learning rate. We analytically compute formulas for the Lipschitz constant of several loss functions, and through extensive experimentation, demonstrate the strength of our approach using several architectures and datasets. In addition, we detail the computation of learning rates when other optimizers, namely, SGD with momentum, RMSprop, and Adam, are used. Compared to standard choices of learning rates, our approach converges faster, and yields better results.},
-  archiveprefix = {arXiv},
-  arxivid       = {1902.07399},
-  doi           = {10.1007/s10489-020-01892-0},
-  eprint        = {1902.07399},
-  file          = {:home/antonio/Downloads/1902.07399.pdf:pdf},
-  groups        = {General deep learning},
-  keywords      = {Adaptive learning, Deep learning, Lipschitz constant, Machine learning},
-}
-
-@Misc{yedida2020lipschitzlr,
-  author        = {Rahul Yedida and Snehanshu Saha and Tejas Prashanth},
-  title         = {LipschitzLR: Using theoretically computed adaptive learning rates for fast convergence},
-  year          = {2020},
-  archiveprefix = {arXiv},
-  eprint        = {1902.07399},
-  groups        = {Training},
-  primaryclass  = {cs.LG},
-}
-
 @Article{Dogra2020,
   author        = {Dogra, Akshunna S. and Redman, William T},
   title         = {{Optimizing Neural Networks via Koopman Operator Theory}},
@@ -2943,15 +2914,6 @@ title = {{Input Convex Neural Networks}},
 url = {http://arxiv.org/abs/1609.07152},
 year = {2016}
 }
-@article{Lefkimmiatis,
-archivePrefix = {arXiv},
-arxivId = {arXiv:1711.07807v2},
-author = {Lefkimmiatis, Stamatios},
-eprint = {arXiv:1711.07807v2},
-file = {:home/antonio/Documents/bibliography/files/Lefkimmiatis - Unknown - Universal Denoising Networks A Novel CNN Architecture for Image Denoising.pdf:pdf;:home/antonio/Documents/bibliography/files/Lefkimmiatis - Unknown - Universal Denoising Networks A Novel CNN Architecture for Image Denoising(2).pdf:pdf},
-number = {1},
-title = {{Universal Denoising Networks : A Novel CNN Architecture for Image Denoising}}
-}
 @article{Meinhardt2017,
 archivePrefix = {arXiv},
 arxivId = {arXiv:1704.03488v2},
@@ -3091,6 +3053,7 @@ year = {2005}
   volume        = {54},
   abstract      = {A Bayesian approach to adaptive narrowband beamforming for uncertain source direction-of-arrival (DOA) is presented. The DOA is modeled as a random variable with prior statistics that describe its level of uncertainty. The Bayesian beamformer is the corresponding minimum mean-square error (MMSE) estimator, which can be viewed as a mixture of directional beamformers combined according to the posterior distribution of the DOA given the data. Under a deterministic DOA, the mean-square error (MSE) of the Bayesian beamformer becomes as low as that of the directional beamformer equipped with the DOA candidate in the prior set that is the closest to the true DOA at exponential rate, where closeness is defined in the Kullback-Leibler sense. Two efficient algorithms using a uniform linear array (ULA) are presented. The first method utilizes the efficiency of the fast Fourier transform (FFT) to compute the posterior distribution on a large number of DOA candidates. The second method approximates the posterior distribution by a Gaussian distribution, which leads to a directional beamformer incorporated with a particular spreading matrix and an adjusted DOA. Numerical simulations show that the proposed beamformer outperforms other related blind or robust beamforming algorithms over a wide range of signal-to-noise ratios (SNRs). {\textcopyright} 2006 IEEE.},
   doi           = {10.1109/TSP.2006.880257},
+  groups        = {Classical US imaging},
   keywords      = {Adaptive beamforming, Bayesian model, Direction-of-arrival (DOA) uncertainty, Folder - BSS and acoustic source localization, Minimum mean-square error (MMSE) estimation},
   mendeley-tags = {Adaptive beamforming,Bayesian model,Direction-of-arrival (DOA) uncertainty,Folder - BSS and acoustic source localization,Minimum mean-square error (MMSE) estimation},
 }
@@ -3143,23 +3106,25 @@ doi = {10.4171/111},
 title = {{Complex Analysis}},
 year = {2013}
 }
-@article{Garcia2013,
-abstract = {Ultrafast ultrasound is an emerging modality that offers new perspectives and opportunities in medical imaging. Plane wave imaging (PWI) allows one to attain very high frame rates by transmission of planar ultrasound wavefronts. As a plane wave reaches a given scatterer, the latter becomes a secondary source emitting upward spherical waves and creating a diffraction hyperbola in the received RF signals. To produce an image of the scatterers, all the hyperbolas must be migrated back to their apexes. To perform beamforming of plane wave echo RFs and return high-quality images at high frame rates, we propose a new migration method carried out in the frequency-wavenumber (f-k) domain. The f-k migration for PWI has been adapted from the Stolt migration for seismic imaging. This migration technique is based on the exploding reflector model (ERM), which consists in assuming that all the scatterers explode in concert and become acoustic sources. The classical ERM model, however, is not appropriate for PWI. We showed that the ERM can be made suitable for PWI by a spatial transformation of the hyperbolic traces present in the RF data. In vitro experiments were performed to outline the advantages of PWI with Stolt's f-k migration over the conventional delay-and-sum (DAS) approach. The Stolt's f-k migration was also compared with the Fourier-based method developed by J.-Y. Lu. Our findings show that multi-angle compounded f-k migrated images are of quality similar to those obtained with a stateof- the-art dynamic focusing mode. This remained true even with a very small number of steering angles, thus ensuring a highly competitive frame rate. In addition, the new FFT-based f-k migration provides comparable or better contrast-to-noise ratio and lateral resolution than the Lu's and DAS migration schemes. Matlab codes for the Stolt's f-k migration for PWI are provided. {\textcopyright} 1986-2012 IEEE.},
-author = {Garcia, Damien and {Le Tarnec}, Louis and Muth, St{\'{e}}phan and Montagnon, Emmanuel and Por{\'{e}}e, Jonathan and Cloutier, Guy},
-doi = {10.1109/TUFFC.2013.2771},
-issn = {08853010},
-journal = {IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control},
-keywords = {Folder - Classical beamforming},
-language = {en},
-mendeley-tags = {Folder - Classical beamforming},
-month = {sep},
-number = {9},
-pages = {1853--1867},
-pmid = {24626107},
-title = {{Stolt's f-k migration for plane wave ultrasound imaging}},
-url = {http://ieeexplore.ieee.org/document/6587395/},
-volume = {60},
-year = {2013}
+
+@Article{Garcia2013,
+  author        = {Garcia, Damien and {Le Tarnec}, Louis and Muth, St{\'{e}}phan and Montagnon, Emmanuel and Por{\'{e}}e, Jonathan and Cloutier, Guy},
+  journal       = {IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control},
+  title         = {{Stolt's f-k migration for plane wave ultrasound imaging}},
+  year          = {2013},
+  issn          = {08853010},
+  month         = {sep},
+  number        = {9},
+  pages         = {1853--1867},
+  volume        = {60},
+  abstract      = {Ultrafast ultrasound is an emerging modality that offers new perspectives and opportunities in medical imaging. Plane wave imaging (PWI) allows one to attain very high frame rates by transmission of planar ultrasound wavefronts. As a plane wave reaches a given scatterer, the latter becomes a secondary source emitting upward spherical waves and creating a diffraction hyperbola in the received RF signals. To produce an image of the scatterers, all the hyperbolas must be migrated back to their apexes. To perform beamforming of plane wave echo RFs and return high-quality images at high frame rates, we propose a new migration method carried out in the frequency-wavenumber (f-k) domain. The f-k migration for PWI has been adapted from the Stolt migration for seismic imaging. This migration technique is based on the exploding reflector model (ERM), which consists in assuming that all the scatterers explode in concert and become acoustic sources. The classical ERM model, however, is not appropriate for PWI. We showed that the ERM can be made suitable for PWI by a spatial transformation of the hyperbolic traces present in the RF data. In vitro experiments were performed to outline the advantages of PWI with Stolt's f-k migration over the conventional delay-and-sum (DAS) approach. The Stolt's f-k migration was also compared with the Fourier-based method developed by J.-Y. Lu. Our findings show that multi-angle compounded f-k migrated images are of quality similar to those obtained with a stateof- the-art dynamic focusing mode. This remained true even with a very small number of steering angles, thus ensuring a highly competitive frame rate. In addition, the new FFT-based f-k migration provides comparable or better contrast-to-noise ratio and lateral resolution than the Lu's and DAS migration schemes. Matlab codes for the Stolt's f-k migration for PWI are provided. {\textcopyright} 1986-2012 IEEE.},
+  doi           = {10.1109/TUFFC.2013.2771},
+  groups        = {Classical US imaging},
+  keywords      = {Folder - Classical beamforming},
+  language      = {en},
+  mendeley-tags = {Folder - Classical beamforming},
+  pmid          = {24626107},
+  url           = {http://ieeexplore.ieee.org/document/6587395/},
 }
 
 @Article{Erlangga2006a,
@@ -3179,20 +3144,22 @@ year = {2013}
   language = {en},
   url      = {http://epubs.siam.org/doi/10.1137/040615195},
 }
-@inproceedings{Sasso2005,
-abstract = {Medical ultrasound beamformingis conventionally done using a classical delay-and-sum operation. This simplest beam-forming suffers from drawbacks. Indeed, in phased array imaging the beamformed radio-frequency signal is often polluted with off-axis energies. In this paper, we investigate the use of an adaptive beamforming approach widely used in array processing, the fully adaptive beamformer, to reduce the bright off-axis energies contribution. We show that the fully adaptive beamformer cannot be applied to medical ultrasound as it was initially derived since medical ultrasonic medium produces coherent or highly correlated signals and the algorithm fails to work within this context. The spatial smoothing preprocessing is introduced which allows the fully adaptive beamformer to operate. A complementary preprocessing that uses the received data obtained using consecutive transmission lines further improve the performances. Very promising results as for the application of adaptive array processing techniques in medical ultrasound are obtained. {\textcopyright} 2005 IEEE.},
-author = {Sasso, Magali and Cohen-Bacrie, Claude},
-booktitle = {ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings},
-doi = {10.1109/ICASSP.2005.1415448},
-isbn = {0780388747},
-issn = {15206149},
-keywords = {Folder - Adaptive beamforming},
-mendeley-tags = {Folder - Adaptive beamforming},
-pages = {ii--489},
-publisher = {IEEE},
-title = {{Medical ultrasound imaging using the fully adaptive beamformer}},
-volume = {II},
-year = {2005}
+
+@InProceedings{Sasso2005,
+  author        = {Sasso, Magali and Cohen-Bacrie, Claude},
+  booktitle     = {ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings},
+  title         = {{Medical ultrasound imaging using the fully adaptive beamformer}},
+  year          = {2005},
+  pages         = {ii--489},
+  publisher     = {IEEE},
+  volume        = {II},
+  abstract      = {Medical ultrasound beamformingis conventionally done using a classical delay-and-sum operation. This simplest beam-forming suffers from drawbacks. Indeed, in phased array imaging the beamformed radio-frequency signal is often polluted with off-axis energies. In this paper, we investigate the use of an adaptive beamforming approach widely used in array processing, the fully adaptive beamformer, to reduce the bright off-axis energies contribution. We show that the fully adaptive beamformer cannot be applied to medical ultrasound as it was initially derived since medical ultrasonic medium produces coherent or highly correlated signals and the algorithm fails to work within this context. The spatial smoothing preprocessing is introduced which allows the fully adaptive beamformer to operate. A complementary preprocessing that uses the received data obtained using consecutive transmission lines further improve the performances. Very promising results as for the application of adaptive array processing techniques in medical ultrasound are obtained. {\textcopyright} 2005 IEEE.},
+  doi           = {10.1109/ICASSP.2005.1415448},
+  groups        = {Classical US imaging},
+  isbn          = {0780388747},
+  issn          = {15206149},
+  keywords      = {Folder - Adaptive beamforming},
+  mendeley-tags = {Folder - Adaptive beamforming},
 }
 
 @Article{2008,
@@ -3281,20 +3248,22 @@ year = {1897}
   mendeley-tags = {Computer Science - Machine Learning,Statistics - Machine Learning},
   url           = {http://arxiv.org/abs/1711.05597},
 }
-@article{Nilsen2010,
-abstract = {The coherence factor (CF) is used for aberration correction and sidelobe suppression in ultrasound imaging. Unfortunately, it suffers from artifacts when the SNR is low. We show how the CF can be interpreted as an implementation of the Wiener postfilter for a delay-and-sum beamformer. In addition, we show that a minimum-variance, distortionlessresponse beamformer followed by CF weighting can be interpreted as an implementation of the Wiener beamformer. These interpretations provide us with a theoretical framework for analyzing and improving CF-based methods. We use this theory to develop more robust implementations for both the Wiener postfilter and beamformer. The performance of these implementations is shown on simulated and real data. {\textcopyright} 2006 IEEE.},
-author = {Nilsen, Carl Inge and Holm, Sverre},
-doi = {10.1109/TUFFC.2010.1553},
-issn = {08853010},
-journal = {IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control},
-keywords = {Folder - Adaptive beamforming},
-mendeley-tags = {Folder - Adaptive beamforming},
-number = {6},
-pages = {1329--1346},
-pmid = {20529709},
-title = {{Wiener beamforming and the coherence factor in ultrasound imaging}},
-volume = {57},
-year = {2010}
+
+@Article{Nilsen2010,
+  author        = {Nilsen, Carl Inge and Holm, Sverre},
+  journal       = {IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control},
+  title         = {{Wiener beamforming and the coherence factor in ultrasound imaging}},
+  year          = {2010},
+  issn          = {08853010},
+  number        = {6},
+  pages         = {1329--1346},
+  volume        = {57},
+  abstract      = {The coherence factor (CF) is used for aberration correction and sidelobe suppression in ultrasound imaging. Unfortunately, it suffers from artifacts when the SNR is low. We show how the CF can be interpreted as an implementation of the Wiener postfilter for a delay-and-sum beamformer. In addition, we show that a minimum-variance, distortionlessresponse beamformer followed by CF weighting can be interpreted as an implementation of the Wiener beamformer. These interpretations provide us with a theoretical framework for analyzing and improving CF-based methods. We use this theory to develop more robust implementations for both the Wiener postfilter and beamformer. The performance of these implementations is shown on simulated and real data. {\textcopyright} 2006 IEEE.},
+  doi           = {10.1109/TUFFC.2010.1553},
+  groups        = {Classical US imaging},
+  keywords      = {Folder - Adaptive beamforming},
+  mendeley-tags = {Folder - Adaptive beamforming},
+  pmid          = {20529709},
 }
 
 @InProceedings{Stanziola2015,
@@ -4630,6 +4599,7 @@ year = {2019}
   arxivid       = {1711.03825},
   booktitle     = {arXiv},
   eprint        = {1711.03825},
+  groups        = {Acceleration},
   issn          = {23318422},
   keywords      = {Deep neural network, Geometric multigrid method, Helmholtz equation, Mathematics - Numerical Analysis, Poisson equation, Spectral radius minimization},
   language      = {en},
@@ -9800,16 +9770,6 @@ title = {{A unifying framework for acoustic localization}},
 volume = {06-10-Sept},
 year = {2015}
 }
-@book{X2019,
-address = {S.l.},
-author = {X},
-isbn = {978-3-030-11213-4},
-language = {en},
-publisher = {SPRINGER NATURE},
-shorttitle = {ACOUSTICS},
-title = {{ACOUSTICS: an introduction to its physical principles and applications, fully updated and... revised.}},
-year = {2019}
-}
 
 @Article{Wang2005,
   author        = {Wang, Zhisong and Li, Jian and Wu, Renbiao},
@@ -10938,15 +10898,6 @@ year = {2019}
   publisher = {Elsevier},
   url       = {http://dx.doi.org/10.1016/j.neucom.2014.11.058},
 }
-@book{Pierce2019,
-author = {Pierce, Allan D.},
-booktitle = {Acoustics},
-doi = {10.1007/978-3-030-11214-1},
-file = {:home/antonio/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Pierce - 2019 - Acoustics.pdf:pdf},
-isbn = {9783030112134},
-title = {{Acoustics}},
-year = {2019}
-}
 @article{Beck2019,
 abstract = {In this paper we introduce a numerical method for parabolic PDEs that combines operator splitting with deep learning. It divides the PDE approximation problem into a sequence of separate learning problems. Since the computational graph for each of the subproblems is comparatively small, the approach can handle extremely high-dimensional PDEs. We test the method on different examples from physics, stochastic control, and mathematical finance. In all cases, it yields very good results in up to 10,000 dimensions with short run times.},
 archivePrefix = {arXiv},
@@ -11024,6 +10975,7 @@ year = {2019}
   arxivid       = {1912.07443},
   eprint        = {1912.07443},
   file          = {:home/antonio/Documents/bibliography/files/Khodayi-Mehr, Zavlanos - 2019 - VarNet Variational Neural Networks for the Solution of Partial Differential Equations.pdf:pdf},
+  groups        = {PDEs and neural networks},
   url           = {http://arxiv.org/abs/1912.07443},
 }
 @article{Simeoni2019a,
@@ -11049,6 +11001,7 @@ year = {2019}
   arxivid       = {1711.06464},
   doi           = {10.1016/j.neucom.2018.06.056},
   eprint        = {1711.06464},
+  groups        = {PDEs and neural networks},
   keywords      = {Advection, Complex geometries, Deep neural networks, Diffusion, Partial differential equations},
   publisher     = {Elsevier B.V.},
 }
@@ -12235,20 +12188,22 @@ title = {{Classical Fields: General Relativity and Gauge Theory}},
 volume = {35},
 year = {1984}
 }
-@book{Pierce1993,
-author = {Pierce, Allan D.},
-booktitle = {Physical Acoustics},
-doi = {10.1016/B978-0-12-477922-8.50007-8},
-file = {:home/antonio/Documents/bibliography/files/Pierce - 1993 - Variational Formulations in Acoustic Radiation and Scattering.pdf:pdf},
-isbn = {0124779220},
-issn = {0893388X},
-number = {C},
-pages = {195--371},
-publisher = {ACADEMIC PRESS, INC.},
-title = {{Variational Formulations in Acoustic Radiation and Scattering}},
-url = {http://dx.doi.org/10.1016/B978-0-12-477922-8.50007-8},
-volume = {22},
-year = {1993}
+
+@Book{Pierce1993,
+  author    = {Pierce, Allan D.},
+  publisher = {ACADEMIC PRESS, INC.},
+  title     = {{Variational Formulations in Acoustic Radiation and Scattering}},
+  year      = {1993},
+  isbn      = {0124779220},
+  number    = {C},
+  volume    = {22},
+  booktitle = {Physical Acoustics},
+  doi       = {10.1016/B978-0-12-477922-8.50007-8},
+  file      = {:home/antonio/Documents/bibliography/files/Pierce - 1993 - Variational Formulations in Acoustic Radiation and Scattering.pdf:pdf},
+  groups    = {Books},
+  issn      = {0893388X},
+  pages     = {195--371},
+  url       = {http://dx.doi.org/10.1016/B978-0-12-477922-8.50007-8},
 }
 @article{Woodard2015,
 abstract = {Ostrogradsky's construction of a Hamiltonian formalism for nondegenerate higher derivative Lagrangians is reviewed. The resulting instability imposes by far the most powerful restriction on fundamental, interacting, continuum Lagrangian field theories. A discussion is given of the problems raised by attempts to evade this restriction.},
@@ -12605,6 +12560,7 @@ year = {2016}
   arxivid       = {arXiv:1812.01492v1},
   eprint        = {arXiv:1812.01492v1},
   file          = {:home/antonio/Documents/bibliography/files/Liu, Wang, Zheng - 2018 - Data-driven physics informed deep learning of solute transport with anomalous diffusion.pdf:pdf},
+  groups        = {PDEs and neural networks},
   keywords      = {data-driven scientific computing, deep learning, equations, fractional advection-dispersion, parameter identification},
 }
 @article{Chenb,
@@ -13087,16 +13043,18 @@ title = {{Sharp Minima Can Generalize For Deep Nets}}
   file          = {:home/antonio/Documents/bibliography/files/Graham, Pembery, Spence - 2018 - The Helmholtz equation in heterogeneous media a priori bounds, well-posedness, and resonances.pdf:pdf},
   keywords      = {35B34, 35J25, 35P25, 78A45, Helmholtz equation, heterogeneous, high frequency, nontrapping, resolvent, resonance, semiclassical AMS subject classifications: 35J05, trans-mission problem, uniqueness, variable wave speed},
 }
-@techreport{Meng2019,
-abstract = {Physics-informed neural networks (PINNs) encode physical conservation laws and prior physical knowledge into the neural networks, ensuring the correct physics is represented accurately while alleviating the need for supervised learning to a great degree [1]. While effective for relatively short-term time integration, when long time integration of the time-dependent PDEs is sought, the time-space domain may become arbitrarily large and hence training of the neural network may become prohibitively expensive. To this end, we develop a parareal physics-informed neural network (PPINN), hence decomposing a long-time problem into many independent short-time problems supervised by an inexpensive/fast coarse-grained (CG) solver. In particular, the serial CG solver is designed to provide approximate predictions of the solution at discrete times, while initiate many fine PINNs simultaneously to correct the solution iteratively. There is a twofold benefit from training PINNs with small-data sets rather than working on a large-data set directly, i.e., training of individual PINNs with small-data is much faster, while training the fine PINNs can be readily parallelized. Consequently, compared to the original PINN approach, the proposed PPINN approach may achieve a significant speedup for long-time integration of PDEs, assuming that the CG solver is fast and can provide reasonable predictions of the solution, hence aiding the PPINN solution to converge in just a few iterations. To investigate the PPINN performance on solving time-dependent PDEs, we first apply the PPINN to solve the Burgers equation, and subsequently we apply the PPINN to solve a two-dimensional nonlinear diffusion-reaction equation. Our results demonstrate that PPINNs converge in a couple of iterations with significant speed-ups proportional to the number of time-subdomains employed.},
-archivePrefix = {arXiv},
-arxivId = {1909.10145v1},
-author = {Meng, Xuhui and Li, Zhen and Zhang, Dongkun and Karniadakis, George Em},
-eprint = {1909.10145v1},
-file = {:home/antonio/Documents/bibliography/files/Meng et al. - 2019 - PPINN Parareal Physics-Informed Neural Network for time-dependent PDEs.pdf:pdf},
-isbn = {1909.10145v1},
-title = {{PPINN: Parareal Physics-Informed Neural Network for time-dependent PDEs}},
-year = {2019}
+
+@TechReport{Meng2019,
+  author        = {Meng, Xuhui and Li, Zhen and Zhang, Dongkun and Karniadakis, George Em},
+  title         = {{PPINN: Parareal Physics-Informed Neural Network for time-dependent PDEs}},
+  year          = {2019},
+  abstract      = {Physics-informed neural networks (PINNs) encode physical conservation laws and prior physical knowledge into the neural networks, ensuring the correct physics is represented accurately while alleviating the need for supervised learning to a great degree [1]. While effective for relatively short-term time integration, when long time integration of the time-dependent PDEs is sought, the time-space domain may become arbitrarily large and hence training of the neural network may become prohibitively expensive. To this end, we develop a parareal physics-informed neural network (PPINN), hence decomposing a long-time problem into many independent short-time problems supervised by an inexpensive/fast coarse-grained (CG) solver. In particular, the serial CG solver is designed to provide approximate predictions of the solution at discrete times, while initiate many fine PINNs simultaneously to correct the solution iteratively. There is a twofold benefit from training PINNs with small-data sets rather than working on a large-data set directly, i.e., training of individual PINNs with small-data is much faster, while training the fine PINNs can be readily parallelized. Consequently, compared to the original PINN approach, the proposed PPINN approach may achieve a significant speedup for long-time integration of PDEs, assuming that the CG solver is fast and can provide reasonable predictions of the solution, hence aiding the PPINN solution to converge in just a few iterations. To investigate the PPINN performance on solving time-dependent PDEs, we first apply the PPINN to solve the Burgers equation, and subsequently we apply the PPINN to solve a two-dimensional nonlinear diffusion-reaction equation. Our results demonstrate that PPINNs converge in a couple of iterations with significant speed-ups proportional to the number of time-subdomains employed.},
+  archiveprefix = {arXiv},
+  arxivid       = {1909.10145v1},
+  eprint        = {1909.10145v1},
+  file          = {:home/antonio/Documents/bibliography/files/Meng et al. - 2019 - PPINN Parareal Physics-Informed Neural Network for time-dependent PDEs.pdf:pdf},
+  groups        = {PDEs and neural networks},
+  isbn          = {1909.10145v1},
 }
 
 @TechReport{Zang,
@@ -13141,6 +13099,7 @@ year = {2019}
   doi           = {10.1137/18M1229845},
   eprint        = {1811.08967},
   file          = {:home/antonio/Documents/bibliography/files/Pang, Lu, Karniadakis - 2019 - FPinns Fractional physics-informed neural networks.pdf:pdf},
+  groups        = {PDEs and neural networks},
   keywords      = {Fractional advection-diffusion, Fractional inverse problem, Numerical error analysis, Parameter identification, Physics-informed learning machines},
   publisher     = {Society for Industrial and Applied Mathematics Publications},
 }
@@ -13209,12 +13168,6 @@ author = {Hammernik, Kerstin and Klatzer, Teresa and Kobler, Erich and Recht, Mi
 eprint = {arXiv:1704.00447v1},
 file = {:home/antonio/Documents/bibliography/files/Hammernik et al. - Unknown - Learning a Variational Network for Reconstruction of Accelerated MRI Data.pdf:pdf},
 title = {{Learning a Variational Network for Reconstruction of Accelerated MRI Data}}
-}
-@article{Lefkimmiatisa,
-author = {Lefkimmiatis, Stamatios},
-file = {:home/antonio/Documents/bibliography/files/Lefkimmiatis - Unknown - Universal Denoising Networks A Novel CNN Architecture for Image Denoising.pdf:pdf},
-number = {1},
-title = {{Universal Denoising Networks : A Novel CNN Architecture for Image Denoising}}
 }
 
 @Article{Lu,
@@ -13449,20 +13402,22 @@ title = {{Ultra-low memory seismic inversion with randomized trace estimation}},
 url = {http://arxiv.org/abs/2104.00794},
 year = {2021}
 }
-@article{Um2020,
-abstract = {Finding accurate solutions to partial differential equations (PDEs) is a crucial task in all scientific and engineering disciplines. It has recently been shown that machine learning methods can improve the solution accuracy by correcting for effects not captured by the discretized PDE. We target the problem of reducing numerical errors of iterative PDE solvers and compare different learning approaches for finding complex correction functions. We find that previously used learning approaches are significantly outperformed by methods that integrate the solver into the training loop and thereby allow the model to interact with the PDE during training. This provides the model with realistic input distributions that take previous corrections into account, yielding improvements in accuracy with stable rollouts of several hundred recurrent evaluation steps and surpassing even tailored supervised variants. We highlight the performance of the differentiable physics networks for a wide variety of PDEs, from non-linear advection-diffusion systems to three-dimensional Navier-Stokes flows.},
-archivePrefix = {arXiv},
-arxivId = {2007.00016},
-author = {Um, Kiwon and Fei, Yun Raymond and Holl, Philipp and Brand, Robert and Thuerey, Nils},
-eprint = {2007.00016},
-file = {:home/antonio/Documents/bibliography/files/Um et al. - 2020 - Solver-in-the-Loop Learning from Differentiable Physics to Interact with Iterative PDE-Solvers.pdf:pdf},
-issn = {23318422},
-journal = {arXiv},
-number = {c},
-pages = {1--12},
-title = {{Solver-in-the-Loop: Learning from Differentiable Physics to Interact with Iterative PDE-Solvers}},
-volume = {1},
-year = {2020}
+
+@Article{Um2020,
+  author        = {Um, Kiwon and Fei, Yun Raymond and Holl, Philipp and Brand, Robert and Thuerey, Nils},
+  journal       = {arXiv},
+  title         = {{Solver-in-the-Loop: Learning from Differentiable Physics to Interact with Iterative PDE-Solvers}},
+  year          = {2020},
+  issn          = {23318422},
+  number        = {c},
+  pages         = {1--12},
+  volume        = {1},
+  abstract      = {Finding accurate solutions to partial differential equations (PDEs) is a crucial task in all scientific and engineering disciplines. It has recently been shown that machine learning methods can improve the solution accuracy by correcting for effects not captured by the discretized PDE. We target the problem of reducing numerical errors of iterative PDE solvers and compare different learning approaches for finding complex correction functions. We find that previously used learning approaches are significantly outperformed by methods that integrate the solver into the training loop and thereby allow the model to interact with the PDE during training. This provides the model with realistic input distributions that take previous corrections into account, yielding improvements in accuracy with stable rollouts of several hundred recurrent evaluation steps and surpassing even tailored supervised variants. We highlight the performance of the differentiable physics networks for a wide variety of PDEs, from non-linear advection-diffusion systems to three-dimensional Navier-Stokes flows.},
+  archiveprefix = {arXiv},
+  arxivid       = {2007.00016},
+  eprint        = {2007.00016},
+  file          = {:home/antonio/Documents/bibliography/files/Um et al. - 2020 - Solver-in-the-Loop Learning from Differentiable Physics to Interact with Iterative PDE-Solvers.pdf:pdf},
+  groups        = {Differentiable programming and simulation},
 }
 
 @Article{Vay2013,
@@ -13526,6 +13481,84 @@ year = {2021}
   eprint        = {2006.08762},
   file          = {:/home/antonio/Downloads/2006.08762.pdf:PDF},
   primaryclass  = {cs.LG},
+}
+
+@InProceedings{Saharia2111,
+  author = {Chitwan Saharia and William Chan and Huiwen Chang and Chris A. Lee and Jonathan Ho and Tim Salimans and David J. Fleet and Mohammad Norouzi and ∗},
+  title  = {Palette: Image-to-Image Diffusion Models},
+  year   = {2021},
+  file   = {:/home/antonio/Downloads/2111.05826(1).pdf:PDF},
+  groups = {Diffusion},
+}
+
+@InProceedings{Saharia2104,
+  author   = {Chitwan Saharia and Jonathan Ho and William Chan and Tim Salimans and David J. Fleet and Mohammad Norouzi and {sahariac and jonathanho and williamchan and salimans and davidfleet and mnorouzi}@google.com},
+  title    = {Image Super-Resolution via Iterative Refinement},
+  year     = {2021},
+  abstract = {Input SR3 output Reference},
+  file     = {:/home/antonio/Downloads/2104.07636.pdf:PDF},
+  groups   = {Diffusion},
+}
+
+@InProceedings{Sasaki2104,
+  author = {Hiroshi Sasaki and Chris G. Willcocks and Toby P. Breckon},
+  title  = {UNIT-DDPM: UNpaired Image Translation with Denoising Diffusion Probabilistic Models},
+  year   = {2021},
+  file   = {:/home/antonio/Downloads/2104.05358(1).pdf:PDF},
+  groups = {Diffusion},
+}
+
+@InProceedings{Ho2006,
+  author = {Jonathan Ho and Ajay Jain and Pieter Abbeel and UC Berkeley and UC Berkeley and UC Berkeley},
+  title  = {Denoising Diffusion Probabilistic Models},
+  year   = {2020},
+  file   = {:/home/antonio/Downloads/2006.11239.pdf:PDF},
+  groups = {Diffusion},
+}
+
+@Article{Yedida2021,
+  author        = {Yedida, Rahul and Saha, Snehanshu and Prashanth, Tejas},
+  journal       = {Applied Intelligence},
+  title         = {{LipschitzLR: Using theoretically computed adaptive learning rates for fast convergence}},
+  year          = {2021},
+  issn          = {15737497},
+  number        = {3},
+  pages         = {1460--1478},
+  volume        = {51},
+  abstract      = {We present a novel theoretical framework for computing large, adaptive learning rates. Our framework makes minimal assumptions on the activations used and exploits the functional properties of the loss function. Specifically, we show that the inverse of the Lipschitz constant of the loss function is an ideal learning rate. We analytically compute formulas for the Lipschitz constant of several loss functions, and through extensive experimentation, demonstrate the strength of our approach using several architectures and datasets. In addition, we detail the computation of learning rates when other optimizers, namely, SGD with momentum, RMSprop, and Adam, are used. Compared to standard choices of learning rates, our approach converges faster, and yields better results.},
+  archiveprefix = {arXiv},
+  arxivid       = {1902.07399},
+  doi           = {10.1007/s10489-020-01892-0},
+  eprint        = {1902.07399},
+  file          = {:home/antonio/Downloads/1902.07399.pdf:pdf},
+  groups        = {General deep learning},
+  keywords      = {Adaptive learning, Deep learning, Lipschitz constant, Machine learning},
+  primaryclass  = {cs.LG},
+}
+
+@Article{Lefkimmiatis,
+  author        = {Lefkimmiatis, Stamatios},
+  title         = {{Universal Denoising Networks : A Novel CNN Architecture for Image Denoising}},
+  number        = {1},
+  archiveprefix = {arXiv},
+  arxivid       = {arXiv:1711.07807v2},
+  eprint        = {arXiv:1711.07807v2},
+  file          = {:home/antonio/Documents/bibliography/files/Lefkimmiatis - Unknown - Universal Denoising Networks A Novel CNN Architecture for Image Denoising.pdf:pdf;:home/antonio/Documents/bibliography/files/Lefkimmiatis - Unknown - Universal Denoising Networks A Novel CNN Architecture for Image Denoising(2).pdf:pdf},
+}
+
+@Book{X2019,
+  author     = {X},
+  publisher  = {SPRINGER NATURE},
+  title      = {{ACOUSTICS: an introduction to its physical principles and applications, fully updated and... revised.}},
+  year       = {2019},
+  address    = {S.l.},
+  isbn       = {978-3-030-11213-4},
+  booktitle  = {Acoustics},
+  doi        = {10.1007/978-3-030-11214-1},
+  file       = {:home/antonio/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Pierce - 2019 - Acoustics.pdf:pdf},
+  groups     = {Books},
+  language   = {en},
+  shorttitle = {ACOUSTICS},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
