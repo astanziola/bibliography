@@ -161,11 +161,17 @@
   groups        = {PDEs and neural networks},
 }
 
-@Misc{,
-  title   = {{A stable parareal-like method for the second order wave equation | Elsevier Enhanced Reader}},
+@Misc{nguyenParareal,
+  author  = {Hieu Nguyen and Richard Tsai},
+  title   = {A stable parareal-like method for the second order wave equation},
+  year    = {2020},
+  doi     = {10.1016/j.jcp.2019.109156},
   groups  = {Ultrasound and wave physics},
+  issn    = {0021-9991},
+  pages   = {109156},
   url     = {https://reader.elsevier.com/reader/sd/pii/S0021999119308617?token=C120FE136B6ABD32D1ABC28B8C6E463DC84AFA406C8C4B91DB8C166FC4E935F9CBAF2EB75F7F345DC1E0ECAC7A20F4A4&originRegion=eu-west-1&originCreation=20211005162633},
   urldate = {2021-10-05},
+  volume  = {405},
 }
 
 @Article{Liu,
@@ -253,12 +259,17 @@
   groups   = {Differentiable programming and simulation},
 }
 
-@Article{BenjaminErichson♥,
-  author        = {{Benjamin Erichson ♥}, N and Muehlebach, Michael and Mahoney, Michael W},
+@Article{BenjaminErichson,
+  author        = {N. Benjamin Erichson and Lionel Mathelin and Zhewei Yao and Steven L. Brunton and Michael W. Mahoney and J. Nathan Kutz},
   title         = {{PHYSICS-INFORMED AUTOENCODERS FOR LYAPUNOV-STABLE FLUID FLOW PREDICTION}},
+  year          = {2020},
+  issn          = {1364-5021},
+  pages         = {20200097},
+  volume        = {476},
   abstract      = {In addition to providing high-profile successes in computer vision and natural language processing, neural networks also provide an emerging set of techniques for scientific problems. Such data-driven models, however, typically ignore physical insights from the scientific system under consideration. Among other things, a "physics-informed" model formulation should encode some degree of stability or robustness or well-conditioning (in that a small change of the input will not lead to drastic changes in the output), characteristic of the underlying scientific problem. We investigate whether it is possible to include physics-informed prior knowledge for improving the model quality (e.g., generalization performance, sensitivity to parameter tuning, or robustness in the presence of noisy data). To that extent, we focus on the stability of an equilibrium, one of the most basic properties a dynamic system can have, via the lens of Lyapunov analysis. For the prototypical problem of fluid flow prediction, we show that models preserving Lyapunov stability improve the generalization error and reduce the prediction uncertainty.},
   archiveprefix = {arXiv},
   arxivid       = {1905.10866v1},
+  doi           = {10.1098/rspa.2020.0097},
   eprint        = {1905.10866v1},
   file          = {:home/antonio/Documents/bibliography/files/Benjamin Erichson ♥, Muehlebach, Mahoney - Unknown - PHYSICS-INFORMED AUTOENCODERS FOR LYAPUNOV-STABLE FLUID FLOW PREDICTION.pdf:pdf},
   groups        = {PDEs and neural networks},
@@ -1132,13 +1143,14 @@ year = {2018}
   url           = {http://arxiv.org/abs/2104.02555},
 }
 
-@Article{Max”Jiang2020,
-  author   = {Max”Jiang, Chiyu and Sud, Avneesh and Makadia, Ameesh and Huang, Jingwei and Nie{\ss}ner, Matthias and Funkhouser, Thomas},
+@Article{MaxJiang2020,
+  author   = {Chiyu Jiang and Avneesh Sud and Ameesh Makadia and Jingwei Huang and Matthias NieBner and Thomas Funkhouser},
   journal  = {arXiv},
-  title    = {{Local implicit grid representations for 3D scenes}},
+  title    = {Local Implicit Grid Representations for 3D Scenes},
   year     = {2020},
   issn     = {23318422},
   abstract = {Shape priors learned from data are commonly used to reconstruct 3D objects from partial or noisy data. Yet no such shape priors are available for indoor scenes, since typical 3D autoencoders cannot handle their scale, complexity, or diversity. In this paper, we introduce Local Implicit Grid Representations, a new 3D shape representation designed for scalability and generality. The motivating idea is that most 3D surfaces share geometric details at some scale – i.e., at a scale smaller than an entire object and larger than a small patch. We train an autoencoder to learn an embedding of local crops of 3D shapes at that size. Then, we use the decoder as a component in a shape optimization that solves for a set of latent codes on a regular grid of overlapping crops such that an interpolation of the decoded local shapes matches a partial or noisy observation. We demonstrate the value of this proposed approach for 3D surface reconstruction from sparse point observations, showing significantly better results than alternative approaches.},
+  doi      = {10.1109/cvpr42600.2020.00604},
   file     = {:home/antonio/Documents/bibliography/files/Max”Jiang et al. - 2020 - Local implicit grid representations for 3D scenes.pdf:pdf},
   groups   = {Implicit- and Meta- learning},
 }
@@ -1805,7 +1817,7 @@ year = {1988}
   url           = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7532811},
 }
 
-@Article{,
+@Article{Gao,
   author        = {and Yang Gao},
   title         = {Perfect absorbing layers for wave scattering problems and related topics},
   pages         = {155},
@@ -1815,6 +1827,7 @@ year = {1988}
   keywords      = {Folder - problem_statement},
   language      = {en},
   mendeley-tags = {Folder - problem_statement},
+  publisher     = {Nanyang Technological University},
 }
 
 @InProceedings{Jaderberg2015,
@@ -6310,15 +6323,6 @@ year = {2011}
   url           = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7329373},
 }
 
-@article{,
-abstract = {Ultrasound localization microscopy offers new radiation-free diagnostic tools for vascular imaging deep within the tissue. Sequential localization of echoes returned from inert microbubbles with low-concentration within the bloodstream reveal the vasculature with capillary resolution. Despite its high spatial resolution, low microbubble concentrations dictate the acquisition of tens of thousands of images, over the course of several seconds to tens of seconds, to produce a single super-resolved image. Such long acquisition times and stringent constraints on microbubble concentration are undesirable in many clinical scenarios. To address these restrictions, sparsitybased approaches have recently been developed. These methods reduce the total acquisition time dramatically, while maintaining good spatial resolution in settings with considerable microbubble overlap. Here, we further improve sparsity-based superresolution ultrasound imaging by exploiting the inherent ﬂow of microbubbles and utilize their motion kinematics. While doing so, we also provide quantitative measurements of microbubble velocities. Our method relies on simultaneous tracking and superlocalization of individual microbubbles in a frame-by-frame manner, and as such, may be suitable for real-time implementation. We demonstrate the effectiveness of the proposed approach on both simulations and in-vivo contrast enhanced human prostate scans, acquired with a clinically approved scanner.},
-keywords = {Folder - Compressed Sensing},
-language = {en},
-mendeley-tags = {Folder - Compressed Sensing},
-pages = {11},
-title = {{Exploiting ﬂow dynamics for super-resolution in contrast-enhanced ultrasound}}
-}
-
 @Article{Alger2019,
   author        = {Alger, Nick and Rao, Vishwas and Myers, Aaron and Bui-Thanh, Tan and Ghattas, Omar},
   journal       = {SIAM Journal on Scientific Computing},
@@ -6432,11 +6436,6 @@ year = {2014}
   keywords      = {block matching, contrast-enhanced ultrasound, free-breathing, of ultrasound hepatic, perfusion data acquired in, respiratory motion compensation, respiratory motion compensation algorithm, time intensity curve},
   mendeley-tags = {block matching,contrast-enhanced ultrasound,free-breathing,of ultrasound hepatic,perfusion data acquired in,respiratory motion compensation,respiratory motion compensation algorithm,time intensity curve},
   url           = {http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2032179},
-}
-
-@article{,
-number = {2},
-title = {{Compressed sensing in medical ultrasound.PDF}}
 }
 
 @inproceedings{Lediju2010,
@@ -13522,20 +13521,23 @@ title = {{Learning a Variational Network for Reconstruction of Accelerated MRI D
   file  = {:home/antonio/Documents/bibliography/files/Unknown - 2017 - Chapter 1 Introduction.pdf:pdf},
 }
 
-@techreport{,
-file = {:home/antonio/Documents/bibliography/files/Unknown - Unknown - A Unifying Review of Linear Gaussian Models.pdf:pdf},
-title = {{A Unifying Review of Linear Gaussian Models}}
+@Article{Roweis1999,
+  author = {Sam Roweis and Zoubin Ghahramani},
+  title  = {A Unifying Review of Linear Gaussian Models},
+  year   = {1999},
+  issn   = {0899-7667},
+  pages  = {305-345},
+  volume = {11},
+  doi    = {10.1162/089976699300016674},
+  file   = {:home/antonio/Documents/bibliography/files/Unknown - Unknown - A Unifying Review of Linear Gaussian Models.pdf:pdf},
 }
 
-@book{,
-file = {:home/antonio/Documents/bibliography/files/Unknown - Unknown - Independent component analysis.pdf:pdf},
-isbn = {9781626239777},
-title = {{Independent component analysis}}
-}
-
-@article{,
-file = {:home/antonio/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Unknown - Unknown - The black box 2 0.pdf:pdf},
-title = {{The black box 2 0 |}}
+@Book{2004,
+  title = {Independent Component Analysis},
+  year  = {2004},
+  isbn  = {9781626239777},
+  doi   = {10.7551/mitpress/3717.003.0014},
+  file  = {:home/antonio/Documents/bibliography/files/Unknown - Unknown - Independent component analysis.pdf:pdf},
 }
 
 @InProceedings{Wolterink2017a,
@@ -14187,6 +14189,15 @@ solver for heterogeneous high-wavenumber problems.},
   groups        = {Helmholtz and waves},
   publisher     = {Nature Publishing Group},
   url           = {http://dx.doi.org/10.1038/nature25988},
+}
+
+@misc{solomon2018exploiting,
+      title={Exploiting flow dynamics for super-resolution in contrast-enhanced ultrasound}, 
+      author={Oren Solomon and Ruud J. G. van Sloun and Hessel Wijkstra and Massimo Mischi and Yonina C. Eldar},
+      year={2018},
+      eprint={1804.03134},
+      archivePrefix={arXiv},
+      primaryClass={physics.med-ph}
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
