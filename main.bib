@@ -12626,12 +12626,12 @@ year = {2017}
   groups = {Finance},
 }
 
-@TechReport{Bezgin2112,
-  author = {Deniz A. Bezgin and Aaron B. Buhendwa and Chair of Aerodynamics and Fluid Mechanics and Chair of Aerodynamics and Fluid Mechanics},
-  title  = {A fully-differentiable compressible high-order computational fluid dynamics solver},
-  year   = {2112},
-  number = {Munich},
-  groups = {Differentiable programming and simulation},
+@Article{bezgin2021fully,
+  author  = {Bezgin, Deniz A and Buhendwa, Aaron B and Adams, Nikolaus A},
+  journal = {arXiv preprint arXiv:2112.04979},
+  title   = {A fully-differentiable compressible high-order computational fluid dynamics solver},
+  year    = {2021},
+  groups  = {Differentiable programming and simulation},
 }
 
 @Article{koopman1931hamiltonian,
@@ -12944,6 +12944,16 @@ year = {2017}
   groups    = {Helmholtz and wave algorithms},
   keywords  = {acoustic field, acoustic intensity measurement, acoustic signal processing, acoustic transducer arrays, convolution, fast Fourier transforms, frequency-domain analysis, wave equations},
   publisher = {Acoustical Society of America ({ASA})},
+}
+
+@InProceedings{Yuan4000,
+  author   = {Yuan, Lei and Ni, Yi-Qing and Deng, Xiang-Yun and Hao, Shuo},
+  title    = {A-PINN: Auxiliary physics informed neural networks for forward and inverse problems of nonlinear integro-differential equations},
+  year     = {4000},
+  abstract = {Physics informed neural networks (PINNs) are a novel deep learning paradigm primed for solving forward and inverse problems of nonlinear partial differential equations (PDEs). By embedding physical information delineated by PDEs in feedforward neural networks, PINNs are trained as surrogate models for approximate solution to the PDEs without need of label data. Due to the excellent capability of neural networks in describing complex relationships, a variety of PINN-based methods have bene developed to solve different kinds of problems such as integer-order PDEs, fractional PDEs, stochastic PDEs and integrodifferential equations (IDEs). However, for the state-of-the-art PINN methods in application to IDEs, integral discretization is a key prerequisite in order that IDEs can be transformed into ordinary differential equations (ODEs). However, integral discretization inevitably introduces discretization error and truncation error to the solution. In this study, we propose an auxiliary physics informed neural network (A-PINN) framework for solving forward and inverse problems of nonlinear IDEs. By defining auxiliary output variable(s) to represent the integral(s) in the governing equation and employing automatic differentiation of the auxiliary output to replace integral operator, the proposed A-PINN bypasses the limitation of integral discretization. Distinct from the neural network in the original PINN which only approximates the variables in the governing equation, in the proposed A-PINN framework, a multi-output neural network is constructed to simultaneously calculate the primary outputs and auxiliary outputs which respectively approximate the variables and integrals in the governing equation. Subsequently, the relationship between the primary outputs and auxiliary outputs is constrained by new output conditions in compliance with physical laws. By pursuing the first-order nonlinear Volterra IDE benchmark problem, we validate that the proposed A-PINN can obtain more accurate solution than the conventional PINN. We further demonstrate the good performance of A-PINN in solving the forward problems involving nonlinear Volterra IDE Electronic copy available at: https://ssrn.com/abstract=4000235 2 systems, nonlinear 2-dimensional Volterra IDE, and nonlinear Fredholm IDE. Finally, the A-PINN framework is implemented to solve the inverse problem of nonlinear IDEs and the results show that the unknown parameters can be satisfactorily discovered even with heavily noisy data.},
+  file     = {:/home/antonio/Downloads/SSRN-id4000235.pdf:PDF},
+  groups   = {PDEs and neural networks},
+  keywords = {Physics informed neural network (PINN), auxiliary physics informed neural network (A-PINN), integro-differential equations (IDEs), deep learning, multi-output neural network},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
