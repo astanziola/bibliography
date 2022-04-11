@@ -12970,18 +12970,6 @@ year = {2017}
   file   = {:/home/antonio/Downloads/tsr-2021026.1.pdf:PDF},
 }
 
-@Article{zhang2014generation,
-  author    = {Zhang, Peng and Li, Tongcang and Zhu, Jie and Zhu, Xuefeng and Yang, Sui and Wang, Yuan and Yin, Xiaobo and Zhang, Xiang},
-  journal   = {Nature communications},
-  title     = {Generation of acoustic self-bending and bottle beams by phase engineering},
-  year      = {2014},
-  number    = {1},
-  pages     = {1--9},
-  volume    = {5},
-  groups    = {Helmholtz},
-  publisher = {Nature Publishing Group},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
